@@ -1,0 +1,18 @@
+This is a personal project aimed at providing my local volleyball drop-ins the opportunity to be placed on a team 
+that is even in skill as the other teams. 
+Here, I have created a Discord Bot in Python using the Discord.py API to automate the process of matchmaking. 
+In the past, making teams boiled down to assigning people numbers or having a "team captain" system. 
+This however was not robust and had players feeling confused or the dreaded feeling of being picked last. 
+This solution aims to alleviate this by utilizing the ELO method to have balanced matchmaking and create a fun, 
+competitive game no matter the breadth of experience.
+
+The Discord Bot in its current state can create purely randomized teams off the players who RSVP to our sessions. 
+It updates and saves to a local .csv file for which we can retain player data and scores. 
+We can repeat the process if we are not satisfied with the teams. 
+
+Currently, I am in the process of establishing a SQL server by which I can save and access player data as 
+well as researching a suitable platform to host the code 24/7. Over the next couple of months I plan to collect this data 
+to get a sense of the skill distribution (player winrate). 
+Once done, we can trial run this iteration of the bot prior to a drop-in to see if there is any difference in the competitive spirit, or enjoyment in the sport.
+
+This proposed Discord Bot is estimated to be used in a server of 50-60 volleyball players to matchmake teams from 20-30 people twice a month.
